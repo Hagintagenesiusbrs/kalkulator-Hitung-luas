@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Belajar android 2</string>
+    <string name="app_name">Kalkulator Hitung Luas Balok</string>
     <string name="length">Panjang</string>
     <string name="width">Lebar</string>
     <string name="height">Tinggi</string>
     <string name="calculate">Hitung</string>
     <string name="result">Hasil</string>
-    <string name="title">judul</string>
+
 </resources>

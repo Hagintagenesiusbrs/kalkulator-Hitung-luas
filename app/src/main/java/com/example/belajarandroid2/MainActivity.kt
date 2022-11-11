@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 
-private lateinit var title:TextView
+
 private lateinit var edtWidth: EditText
 private lateinit var edtHeight: EditText
 private lateinit var edtLength: EditText
@@ -20,14 +20,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        title = findViewById(R.id.tv_title)
+
         edtWidth = findViewById(R.id.edt_width)
         edtHeight= findViewById(R.id.edt_height)
         edtLength= findViewById(R.id.edt_length)
         btnCalculate= findViewById(R.id.btn_calculate)
         tvResult= findViewById(R.id.tv_result)
 
-        title.tex="hallo"
+
         btnCalculate.setOnClickListener(this)
         if (savedInstanceState != null) {
             val result = savedInstanceState.getString("STATE_RESULT")
